@@ -1,0 +1,660 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.main{
+        
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: right;
+        background-attachment: fixed;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        margin-bottom: 10px;
+      }
+      
+.navbar{
+    display: inline-flex;
+    margin-left: 30%;
+    flex-wrap: wrap;
+    gap: 18px;
+    font-size: 20px;
+    list-style-type: none;
+    color: #202020;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    margin-right: 100px;
+    position: relative;
+}
+.navbar li{
+    font-size: 30px;
+}
+.navbar li:hover{
+    color:blue;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+ section img{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 350px;
+
+}
+.sec-text{
+    font-size: 20px;
+    margin-left: 200px;
+}
+button{
+    height: 50px;
+    width: 50;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: rgb(255, 0, 255);
+    text-align: center;
+} 
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Vertically center the content */
+    gap: 150px; /* Add spacing between the image and text */
+  }
+  
+  .about img {
+    height: 450px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  
+  .about-text {
+    flex: 1;
+ /* Allow the text to expand and fill available space */
+  }
+  
+  /* Additional styles for the text content, e.g., fonts, colors, etc. */
+  .about-text h1 {
+    font-size: 38px;
+  }
+  
+  .about-text h2 {
+    font-size: 28px;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+  }
+  
+.container {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+header {
+    
+    justify-content: center;
+    background-color: #0074d9;
+    color: #fff;
+    padding-left: 200px;
+    font-size: 36px;
+    
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+
+}
+
+header p {
+    font-size: 20px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.projects {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.project img {
+    max-width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.project p {
+    font-size: 16px;
+}
+/*styling for skills*/
+.skills {
+    display: flex;
+    padding: 100px;
+}
+
+.skills h2 {
+    font-size: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.skills p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}    
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li span {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bar div {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.webdev {
+    width: 95%;
+    background-color: #0074d9;
+}
+
+.brand-identity {
+    width: 80%;
+    background-color: #0074d9;
+}
+
+.logo-design {
+    width: 90%;
+    background-color: #0074d9;
+}
+/*styling for contact page*/
+header {
+    text-align: center;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-form {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/*styling for contact information*/
+.card {
+    background-color: #f6f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: block;
+    width: 100px;
+    height: 250px;
+}
+
+i.fa-phone {
+    font-size: 24px;
+    color: #0074d9;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card a{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    gap: 5px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#header{
+    height: 90px;
+    background-color: blue;
+    display: flexbox;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.logo{
+
+    padding-left: 0px;
+    color:#202020;
+    font-size: 40px;
+    list-style-type: none; 
+    margin-bottom: 10px;
+
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 20px;
+
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    padding-bottom: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #FF5733; /* Change color on hover */
+    font-size: 21px;
+}
+/*styling for services*/
+header {
+    text-align: center;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.service {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.service p {
+    font-size: 16px;
+}
+/*Styling for responsive nav*/
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: blue;
+    overflow: hidden;
+    height: 60px;
+    padding: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: 25px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  /* Footer Styles */
+footer {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-logo h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-logo p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+
+/* For small phones (up to 600px wide) */
+@media screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navbar li{
+        font-size: 20px;
+    }
+    h1, h2{
+        text-align: left;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+    button{
+        height: 40px;
+        width: 40;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: rgb(255, 0, 255);
+        text-align: center;
+    }
+    section img{
+        height: 150px;
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-left: 230px;
+    
+    }
+}
+/* For laptops and medium-sized screens (601px to 1024px wide) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body{ 
+        margin: 20px;
+        margin-right: 50px;
+    }
+    .navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navbar li{
+        font-size: 30px;
+    }
+    h1, h2{
+        text-align: left;
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+    button{
+        height: 50px;
+        width: 50;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: rgb(255, 0, 255);
+        text-align: center;
+    }
+    section img{
+        height: 250px;
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-left: 230px;
+    
+    }
+  }
+  /* For large screens (greater than 1024px wide) */
+@media (min-width: 1025px) {
+    body{
+        margin: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50%;
+    }
+    .navbar li{
+        font-size: 30px;
+    }
+    h1, h2{
+        text-align: left;
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+    button{
+        height: 50px;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: rgb(255, 0, 255);
+        text-align: center;
+    }
+    section img{
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-left: 100px;
+    
+    }
+    .sec-text{
+        font-size: 20px;
+        margin-left: 90px;
+  }
+}
